@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f92a4496c413e1e4fa555b609203a5dc, type: 3}
+  m_Name: SkillUnitList
+  m_EditorClassIdentifier: 
+  skillList:
+  - skillName: "\u5355\u4F53\u6280\u80FD"
+    skillID: 1
+    skillDescription: "\u5355\u4F53\u6D4B\u8BD5\u6280\u80FD"
+    skillType: 1
+    skillProperty: 1
+    skillValue: 6
+    costMana: 5
+    skillLevel: 1
+    releaseType: 1
+    releaseDistance: 3
+    iconRef:
+      m_AssetGUID: e372cf1c919822d4db2817c87fd0d7e4
+    skillEffectRef:
+      m_AssetGUID: 
+  - skillName: "\u7FA4\u4F53\u6280\u80FD"
+    skillID: 2
+    skillDescription: "\u7FA4\u4F53\u6D4B\u8BD5\u6280\u80FD"
+    skillType: 2
+    skillProperty: 1
+    skillValue: 6
+    costMana: 5
+    skillLevel: 1
+    releaseType: 1
+    releaseDistance: 3
+    iconRef:
+      m_AssetGUID: e372cf1c919822d4db2817c87fd0d7e4
+    skillEffectRef:
+      m_AssetGUID: 
+  - skillName: "3rd\u6D4B\u8BD5\u6280\u80FD"
+    skillID: 3
+    skillDescription: "\u7B2C\u4E09\u4E2A\u6D4B\u8BD5\u6280\u80FD"
+    skillType: 1
+    skillProperty: 1
+    skillValue: 6
+    costMana: 5
+    skillLevel: 1
+    releaseType: 0
+    releaseDistance: 3
+    iconRef:
+      m_AssetGUID: e372cf1c919822d4db2817c87fd0d7e4
+    skillEffectRef:
+      m_AssetGUID: 

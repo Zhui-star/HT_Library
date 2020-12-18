@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: AudioClips
+  m_EditorClassIdentifier: 
+  m_GroupName: AudioClips
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 30ec704f44aacf44a9ab097e4082df65
+  m_SerializeEntries:
+  - m_GUID: 34ef1f983676653478e67a5836d8daf8
+    m_Address: Assets/HTLibrary/Example/FramewrokExample/2. ManagerOfManagerExample/AudioManagerExample/AudioClips/home.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: bdf0423a5afc3fb4891a6f9774c6ae0a, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0fee2e5c364b7be4b81da49ba58ab012, type: 2}
+    - {fileID: 11400000, guid: a225aae42196d724b8decf5fa3805964, type: 2}
