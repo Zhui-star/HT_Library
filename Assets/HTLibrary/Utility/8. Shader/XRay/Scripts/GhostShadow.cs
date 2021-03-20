@@ -22,6 +22,9 @@ namespace HTLibrary.Utility
 
         // 使用 X-ray shader
         Shader ghostShader;
+        GameObject go;
+        
+        
 
         void Start()
         {
@@ -29,6 +32,7 @@ namespace HTLibrary.Utility
             meshRender = this.gameObject.GetComponentsInChildren<SkinnedMeshRenderer>();
             // 并获取 X-ray shader
             ghostShader = Shader.Find("HTLibrary/Xray");
+            
         }
 
         // 计时，和位置参数
@@ -79,6 +83,7 @@ namespace HTLibrary.Utility
                 meshRen.material = meshRender[i].material;
                 meshRen.material.shader = ghostShader;
                 meshRen.material.SetFloat("_Pow", 2.0f);
+        
                 shadowColor.a = 1;
                 meshRen.material.SetColor("_GhostColor", shadowColor);
 

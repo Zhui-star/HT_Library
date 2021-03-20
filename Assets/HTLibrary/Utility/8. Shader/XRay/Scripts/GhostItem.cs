@@ -16,9 +16,10 @@ namespace HTLibrary.Utility
         public float deleteTime;
         // 物体上的 MeshRenderer ，主要是为了 动态修改材质颜色 alpha 值，产生渐隐效果
         public MeshRenderer meshRenderer;
-
+        
         void Update()
         {
+
             float tempTime = deleteTime - Time.time;
             if (tempTime <= 0)
             {//到时间就销毁
